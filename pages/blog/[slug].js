@@ -5,7 +5,7 @@ import { NextSeo } from "next-seo";
 
 export default function BlogDetail({ order, slug, post }) {
   const index = order.indexOf(slug);
-  const progress = ((index + 1) / order.length) * 100;
+  const progress = (((index + 1) / order.length) * 100).toFixed(0);
   const nextArticleSlug = order[index + 1];
   const prevArticleSlug = index === 0 ? null : order[index - 1];
 
