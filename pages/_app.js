@@ -33,7 +33,7 @@ function MyApp({ Component, pageProps }) {
           cardType: "summary_large_image",
         }}
       />
-      <div className="container">
+      <div key={global.location ? global.location.pathname : "/"} className="container">
         <Component {...pageProps} />
       </div>
     </>

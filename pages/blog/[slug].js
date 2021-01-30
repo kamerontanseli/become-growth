@@ -29,7 +29,7 @@ export default function BlogDetail({ order, slug, post }) {
           ],
         }}
       />
-      <div>
+      <div key={slug}>
         <div className="progress">
           <progress min="0" value={progress} max="100"></progress>
           <p>{progress}% Complete</p>
