@@ -1,34 +1,90 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[x] What is a Growth Engineer?
+  [x] Definition
+  [x] Growth Hackers versus Growth Engineers
+  [x] Product Engineers versus Growth Engineers
+  [x] Typical work & Salary for a Growth Engineer
+[] The Growth Mindset
+  [] Relying on data to base decisions
+  [] The Five Whys
+  [] The Lean Startup Methodology
+  [] Lean Analytics Methodology
+  [] Growth is all about collaboration
+[] Become a Pirate: AAARRR
+  [] Awareness
+  [] Acquisition
+  [] Activation
+  [] Retention
+  [] Revenue
+  [] Referral
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[] Awareness: Getting the word out there
+  [] Stats You Should Know
+    [] Click Through Rate
+    [] Cost Per Click
+    [] Customer Acquisition Value
+    [] Email Open Rate
+  [] Paid Ads
+    [] Search Engine
+    [] Social Media Ads
+    [] Influencer Advertising
+    [] Newsletter & Content Ads
+  [] Social Media
+    [] Viral Marketing
+    [] Analyzing trends and hashtags
+  [] SEO & Newsletters
+    [] Keyword tools
+    [] Newsletter platforms
+  [] Direct Mail
+    [] Cold emailing
+    [] LinkedIn Sales Navigator
+  [] Webinars & Events
+    [] Zoom events
+  [] Using Competitors  
+    [] Airbnb using Craigslist
+    [] Udemy
+    [] Commenting under FB ads
+[] Acquisition: Capturing New Users
+  [] Stats You Should Know
+    [] Bounce Rate
+    [] Time on page
+    [] Conversion Rate
+    [] New vs Returning Users
+  [] Landing Pages
+    [] Structure (https://www.indiehackers.com/@pedrocortes/bd702271c0)
+    [] Copy (https://marketingexamples.com/copywriting/tips)
+  [] Model Types
+    [] Freemium
+    [] Free Trial
+    [] Paid
+  [] Popups
+    [] Announcements
+    [] Exit pop-ups
+    [] Scroll Pop-ups
+    [] Offers within content
+  [] Alternative Sign Up Options
+    [] Email only
+    [] Twitter DM early access
+    [] Sign in with Google/Twitter/Facebook
+    [] Claim username handle
+  [] Capturing Data
+    [] Using Clearbit to enrich leads
+    [] Intercom for collect qualitative data
+    [] Heatmaps and User Recordings  
+[] Activation: Pushing for sales
+  [] Stats You Should Know
+    [] Email Open Rate
+    [] Engagement
+  [] The "Aha" Moment
+  [] Finding Engaged Users
+  [] Using automated emails to upsell
+  [] In-app upsells to highlight pro features
+  [] Guides / Wizards / Tutorials
+[] Retention: Keeping Users Happy
+  [] Stats You Should Know
+  [] Retention > Acquisition
+  [] Calculating Churn Rate
+[] Revenue: Making Money
+[] Referral: Getting The Word Out
