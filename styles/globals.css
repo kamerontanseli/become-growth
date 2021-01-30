@@ -29,6 +29,12 @@ a:hover {
   -webkit-animation: fadeIn ease 1s;
 }
 
+img {
+  display: block;
+  max-width: 70%;
+  margin: 20px auto;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -70,6 +76,32 @@ a:hover {
   width: 100%;
 }
 
+.progress progress {
+  display: block; /* default: inline-block */
+  padding: 4px;
+  border: 0 none;
+  background: #000;
+  border-radius: 14px;
+}
+.progress progress::-moz-progress-bar {
+  border-radius: 12px;
+  background: #FFF;
+  
+}
+/* webkit */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .progress progress {
+    height: 12px;
+  }
+}
+.progress progress::-webkit-progress-bar {
+    background: transparent;
+}  
+.progress progress::-webkit-progress-value {  
+  border-radius: 12px;
+  background: #FFF;
+} 
+
 .progress p {
   margin: 0;
   font-size: 0.8em;
@@ -82,4 +114,20 @@ a:hover {
 
 .navigation > div:last-child {
   text-align: right;
+}
+
+blockquote {
+  background-color: #eee;
+  margin-left: 0;
+  padding: 10px;
+  border-left: 2px solid #333;
+  font-style: italic;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.4em;
 }

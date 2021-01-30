@@ -6,9 +6,9 @@
   [x] Product Engineers versus Growth Engineers
   [x] Typical work & Salary for a Growth Engineer
 [] The Growth Mindset
-  [] Relying on data to base decisions
-  [] The Five Whys
-  [] The Lean Startup Methodology
+  [x] Relying on data to base decisions
+  [x] The Five Whys
+  [x] The Lean Startup Methodology
   [] Lean Analytics Methodology
   [] Growth is all about collaboration
 [] Become a Pirate: AAARRR

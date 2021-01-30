@@ -24,7 +24,7 @@ Growth Engineers work across all stages of the funnel. They work in experiments 
 If you're a developer who likes to have a greater impact on the business and has a love for marketing. Then Growth Engineering is the path for you. Here's some fun things you get being a growth engineer:
 
 * Independence to execute on your own ideas and findings.
-* Buy-in from top leadership to execute those ideas across parts of the organisation.
+* Buy-in from top leadership to execute those ideas across parts of the organization.
 * You get to understand _why_ you're working on something.
 * You get to see the results of your hard work.
 * In some companies you even get bonuses or profit share when you do improve metrics.
