@@ -52,7 +52,7 @@ export default function BlogDetail({ order, slug, post }) {
           site_name: "Become Growth",
           images: [
             {
-              url: post.data.hero_image || "https://becomegrowth.com/meta.png",
+              url: `https://becomegrowth.com${post.data.hero_image || "/meta.png"}`,
               width: 454,
               height: 248,
               alt: "test tube",
