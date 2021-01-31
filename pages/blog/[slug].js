@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Subscribe from "../../components/Subscribe";
 import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
 import { NextSeo } from "next-seo";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function BlogDetail({ order, slug, post }) {
   const router = useRouter();
@@ -11,6 +12,13 @@ export default function BlogDetail({ order, slug, post }) {
   const progress = (((index + 1) / order.length) * 100).toFixed(0);
   const nextArticleSlug = order[index + 1];
   const prevArticleSlug = index === 0 ? null : order[index - 1];
+
+  const [hide, setHide] = useState(false);
+
+  useEffect(() => {
+    const storage = global.localStorage;
+    setHide(storage && storage.getItem("subscribed") === "true");
+  }, []);
 
   useEffect(() => {
     const listener = (evt) => {
@@ -54,7 +62,9 @@ export default function BlogDetail({ order, slug, post }) {
           site_name: "Become Growth",
           images: [
             {
-              url: `https://becomegrowth.com${post.data.hero_image || "/meta.png"}`,
+              url: `https://becomegrowth.com${
+                post.data.hero_image || "/meta.png"
+              }`,
               width: 454,
               height: 248,
               alt: "test tube",
@@ -62,7 +72,15 @@ export default function BlogDetail({ order, slug, post }) {
           ],
         }}
       />
-      <div key={slug}>
+      {hide ? null : (
+        <Subscribe
+          onHide={() => {
+            setHide(true);
+            global.localStorage.setItem("subscribed", "true");
+          }}
+        />
+      )}
+      <div key={slug} style={{ marginTop: hide ? 0 : 80 }}>
         <div className="progress">
           <progress min="0" value={progress} max="100"></progress>
           <p>{progress}% Complete</p>
