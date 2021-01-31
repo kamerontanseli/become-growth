@@ -1,10 +1,12 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
 import { NextSeo } from "next-seo";
 import { useEffect } from "react";
 
 export default function BlogDetail({ order, slug, post }) {
+  const router = useRouter();
   const index = order.indexOf(slug);
   const progress = (((index + 1) / order.length) * 100).toFixed(0);
   const nextArticleSlug = order[index + 1];
@@ -17,16 +19,16 @@ export default function BlogDetail({ order, slug, post }) {
         // left
         case 37: {
           if (prevArticleSlug) {
-            location.pathname = `/blog/${prevArticleSlug}`;
+            router.push(`/blog/${prevArticleSlug}`);
           } else {
-            location.pathname = "/";
+            router.push(`/`);
           }
           break;
         }
         // right
         case 39: {
           if (nextArticleSlug) {
-            location.pathname = `/blog/${nextArticleSlug}`;
+            router.push(`/blog/${nextArticleSlug}`);
           }
           break;
         }
