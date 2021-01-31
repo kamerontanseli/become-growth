@@ -46,6 +46,7 @@ img {
 
 .btn {
   display: inline-block;
+  text-decoration: none;
   padding: 12px 30px;
   background-color: #000;
   color: #fff;
@@ -58,6 +59,7 @@ img {
 
 .btn:hover {
   box-shadow: none;
+  text-decoration: none;
   background-color: #333;
 }
 
@@ -109,10 +111,14 @@ img {
 
 .navigation {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto 1fr auto;
 }
 
-.navigation > div:last-child {
+.navigation > div:nth-child(2) {
+  text-align: center;
+}
+
+.navigation > div:nth-child(3) {
   text-align: right;
 }
 

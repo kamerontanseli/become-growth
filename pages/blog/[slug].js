@@ -71,7 +71,7 @@ export default function BlogDetail({ order, slug, post }) {
             <img
               src={post.data.hero_image}
               alt={post.data.title}
-              style={{ marginBottom: '40px' }}
+              style={{ marginBottom: "40px" }}
             />
           )}
           <ReactMarkdown source={post.content} />
@@ -80,18 +80,23 @@ export default function BlogDetail({ order, slug, post }) {
           <div>
             {prevArticleSlug ? (
               <Link href={`/blog/${prevArticleSlug}`}>
-                <a href={`/blog/${prevArticleSlug}`}>&larr; Prev Page</a>
+                <a href={`/blog/${prevArticleSlug}`}>&larr; Prev</a>
               </Link>
             ) : (
               <Link href={`/`}>
-                <a href={`/`}>&larr; Back To Home</a>
+                <a href={`/`}>&larr; Home</a>
               </Link>
             )}
           </div>
           <div>
+            <Link href={`/toc`}>
+              <a href={`/toc`}>Table Of Contents</a>
+            </Link>
+          </div>
+          <div>
             {nextArticleSlug && (
               <Link href={`/blog/${nextArticleSlug}`}>
-                <a href={`/blog/${nextArticleSlug}`}>Next Page &rarr; </a>
+                <a href={`/blog/${nextArticleSlug}`}>Next &rarr; </a>
               </Link>
             )}
           </div>
