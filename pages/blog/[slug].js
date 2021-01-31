@@ -2,12 +2,43 @@ import Link from "next/link";
 import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
 import { NextSeo } from "next-seo";
+import { useEffect } from "react";
 
 export default function BlogDetail({ order, slug, post }) {
   const index = order.indexOf(slug);
   const progress = (((index + 1) / order.length) * 100).toFixed(0);
   const nextArticleSlug = order[index + 1];
   const prevArticleSlug = index === 0 ? null : order[index - 1];
+
+  useEffect(() => {
+    const listener = (evt) => {
+      console.log(evt.keyCode);
+      switch (evt.keyCode) {
+        // left
+        case 37: {
+          if (prevArticleSlug) {
+            location.pathname = `/blog/${prevArticleSlug}`;
+          } else {
+            location.pathname = "/";
+          }
+          break;
+        }
+        // right
+        case 39: {
+          if (nextArticleSlug) {
+            location.pathname = `/blog/${nextArticleSlug}`;
+          }
+          break;
+        }
+        default:
+          return;
+      }
+    };
+    document.addEventListener("keydown", listener);
+    return () => {
+      document.removeEventListener("keydown", listener);
+    };
+  }, []);
 
   return (
     <>
@@ -35,14 +66,14 @@ export default function BlogDetail({ order, slug, post }) {
           <p>{progress}% Complete</p>
         </div>
         <article className="content">
+          <h1 className="content-title">{post.data.title}</h1>
           {post.data.hero_image && (
-            <div
-              className="content-header"
-              style={{ backgroundImage: `url(${post.data.hero_image})` }}
+            <img
+              src={post.data.hero_image}
               alt={post.data.title}
+              style={{ marginBottom: '40px' }}
             />
           )}
-          <h1 className="content-title">{post.data.title}</h1>
           <ReactMarkdown source={post.content} />
         </article>
         <div className="navigation">

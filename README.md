@@ -5,23 +5,18 @@
   [x] Growth Hackers versus Growth Engineers
   [x] Product Engineers versus Growth Engineers
   [x] Typical work & Salary for a Growth Engineer
-[] The Growth Mindset
-  [x] Relying on data to base decisions
-  [x] The Five Whys
-  [x] The Lean Startup Methodology
-  [] Lean Analytics Methodology
-  [] Growth is all about collaboration
-[] Become a Pirate: AAARRR
-  [] Awareness
-  [] Acquisition
-  [] Activation
-  [] Retention
-  [] Revenue
-  [] Referral
-
-
-
-
+  [x] Growth is all about collaboration
+[x] Setting Up Experiments
+  [x] Why Experiments
+  [x] Build, Measure, And Learn
+  [x] MVPs
+[z] The Funnel (AAARRR)
+  [x] Awareness
+  [x] Acquisition
+  [x] Activation
+  [x] Retention
+  [x] Revenue
+  [x] Referral
 [] Awareness: Getting the word out there
   [] Stats You Should Know
     [] Click Through Rate

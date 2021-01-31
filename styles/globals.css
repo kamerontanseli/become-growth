@@ -131,3 +131,15 @@ blockquote p {
 h1 {
   font-size: 2.4em;
 }
+
+article * {
+  word-wrap: break-word;
+}
+
+article a {
+  text-decoration: underline;
+}
+
+ul, ol {
+  padding-left: 20px;
+}

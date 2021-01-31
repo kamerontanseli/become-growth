@@ -29,8 +29,12 @@ If you're a developer who likes to have a greater impact on the business and has
 * You get to see the results of your hard work.
 * In some companies you even get bonuses or profit share when you do improve metrics.
 
-## Salary Expectations Compared To Engineering
+## Salary Expectations
 
 * Seniors make around £90K-£97K ($122k-$132k) a year
 * Mid-Levels make around £54K-£67K ($73k-92k) a year
 * Juniors make around £30-£50k ($41k-68k) a year
+
+## You're Not Going To Be Magical
+
+It's a misconception that a Growth Engineer should be this mystical know-it-all figure that can walk into any business and grow the company to IPO. Instead you'll find that a Growth Engineer is just one part of a high functioning growth team. The Engineer is the enabler and tester for the ideas and research of experts within the company.

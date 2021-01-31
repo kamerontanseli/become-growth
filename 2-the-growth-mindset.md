@@ -11,7 +11,7 @@ byline: ""
 
 A Growth Engineer's best weapon is data. Whether that be from running database queries to talking to customers, a Growth Engineer should be striving to collect as much data as possible in order to validate a hypothesis or diagnose an issue in the funnel.
 
-A good Growth Engineer will be able to identify when a stakeholder gives an assumption rather than a point backed up by data. In an organization you'll encounter a lot of experts in their given field, however even experts tend to give assumptions which aren't back up by data. It's your job to dispute assumptions and provide real answers using data.
+A good Growth Engineer will be able to identify when a stakeholder gives an assumption rather than a point backed up by data. In an organization you'll encounter a lot of experts in their given field, however even experts tend to give assumptions which aren't backed up by data. It's your job to dispute assumptions and provide real answers using the data.
 
 Here's a few of my favorite frameworks for research and experiments:
 
@@ -19,7 +19,7 @@ Here's a few of my favorite frameworks for research and experiments:
 
 The Five Whys technique for finding the root cause of issues was developed by Sakichi Toyoda at Toyota. The technique is simple, you repeat the question "why?" around five times in order to dig down to the real cause of the issue by asking a different question each time.
 
-Although five is in the name there are no hard rules on how many times you should keep digging. Furthermore, the outcome and success of this technique is also dependent on you knowledge of the topic you're investigating.
+Although five is in the name there are no hard rules on how many times you should keep digging. Furthermore, the outcome and success of this technique is also dependent on your knowledge of the topic you're investigating.
 
 For example: The vehicle will not start.
 
@@ -90,11 +90,3 @@ The Lean Process:
 Why is this important? A startup's effectiveness is determined by how fast they're able to learn from their customers. A Growth Engineer who can take an assumption, build a feature, and test it with customers will be able to validate and solve problems faster than a Customer Interviewer at Big Corp.
 
 Another benefit from the Lean Startup approach is that you're able to quickly disprove an idea and cut losses without investing weeks of manpower. Disproving a hypothesis is as important as validating one because it means you can spend more time focusing on the real problems.
-
-## Lean Analytics Methodology
-
-TBD
-
-## Growth is all about collaboration
-
-TBD
