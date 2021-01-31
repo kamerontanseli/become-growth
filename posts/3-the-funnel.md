@@ -3,7 +3,7 @@ author: Kameron Tanseli
 hero_image: /posts/3-the-funnel-1.jpeg
 date: '2021-01-30T11:48:22.947Z'
 title: 'The Funnel (AAARRR)'
-byline: ""
+byline: "The AAARRR framework separates a company into six steps (Awareness, Acquisition, Activation, Retention, Referral, Revenue). Customers have to flow through each of these steps and, by tracking metrics in each step, you'll find the gaps in your business."
 ---
 
 [Source: https://medium.com/@ms.mbalke](https://medium.com/@ms.mbalke/aarrr-framework-metrics-that-let-your-startup-sound-like-a-pirate-ship-e91d4082994b)
