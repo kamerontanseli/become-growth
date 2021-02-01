@@ -1,5 +1,4 @@
 ```
-
 [x] What is a Growth Engineer?
   [x] Definition
   [x] Growth Hackers versus Growth Engineers
@@ -18,19 +17,19 @@
   [x] Revenue
   [x] Referral
 [] Awareness: Getting the word out there
-  [] Stats You Should Know
-    [] Click Through Rate
-    [] Cost Per Click
-    [] Customer Acquisition Value
-    [] Email Open Rate
-  [] Paid Ads
-    [] Search Engine
-    [] Social Media Ads
-    [] Influencer Advertising
-    [] Newsletter & Content Ads
+  [x] Stats You Should Know
+    [x] Click Through Rate
+    [x] Cost Per Click
+    [x] Customer Acquisition Value
+    [x] Email Open Rate
+  [x] Paid Ads
+    [x] Search Engine
+    [x] Social Media Ads
+    [x] Influencer Advertising
+    [x] Newsletter & Content Ads
   [] Social Media
-    [] Viral Marketing
-    [] Analyzing trends and hashtags
+    [x] Viral Marketing
+    [x] Analyzing trends and hashtags
   [] SEO & Newsletters
     [] Keyword tools
     [] Newsletter platforms

@@ -36,7 +36,7 @@ Retention means people regularly come back to use your product. For an e-commerc
 
 ## Referral
 
-The cheapest form of marketing is referral. Turning your very own customers into marketers is a sure-fire way to rapidly scale your business. In order to referral marketing correctly you'll need a system in place to incentivize your users to share your product with friends. For example, Dropbox offered free storage space in return for their users tweeting about Dropbox.
+The cheapest form of marketing is referral. Turning your very own customers into marketers is a sure-fire way to rapidly scale your business. In order to do referral marketing correctly you'll need a system in place to incentivize your users to share your product with their friends. For example, Dropbox offered free storage space in return for their users tweeting about Dropbox.
 
 ## Revenue
 
