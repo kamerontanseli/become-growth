@@ -1,4 +1,4 @@
-html,
+/* html,
 body {
   background-color: #fcfcfc;
   padding: 0;
@@ -79,7 +79,7 @@ img {
 }
 
 .progress progress {
-  display: block; /* default: inline-block */
+  display: block;
   padding: 4px;
   border: 0 none;
   background: #000;
@@ -87,22 +87,21 @@ img {
 }
 .progress progress::-moz-progress-bar {
   border-radius: 12px;
-  background: #FFF;
-  
+  background: #fff;
 }
-/* webkit */
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
   .progress progress {
     height: 12px;
   }
 }
 .progress progress::-webkit-progress-bar {
-    background: transparent;
-}  
-.progress progress::-webkit-progress-value {  
+  background: transparent;
+}
+.progress progress::-webkit-progress-value {
   border-radius: 12px;
-  background: #FFF;
-} 
+  background: #fff;
+}
 
 .progress p {
   margin: 0;
@@ -146,6 +145,7 @@ article a {
   text-decoration: underline;
 }
 
-ul, ol {
+ul,
+ol {
   padding-left: 20px;
-}
+} */

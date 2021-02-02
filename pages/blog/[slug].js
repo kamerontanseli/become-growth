@@ -4,10 +4,11 @@ import Subscribe from "../../components/Subscribe";
 import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
 import { NextSeo } from "next-seo";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function BlogDetail({ order, slug, post }) {
   const router = useRouter();
+  const parent = useRef(null);
   const index = order.indexOf(slug);
   const progress = (((index + 1) / order.length) * 100).toFixed(0);
   const nextArticleSlug = order[index + 1];
@@ -19,6 +20,20 @@ export default function BlogDetail({ order, slug, post }) {
     const storage = global.localStorage;
     setHide(storage && storage.getItem("subscribed") === "true");
   }, []);
+
+  useEffect(() => {
+    if (parent.current) {
+      for (const h of parent.current.querySelectorAll('h2, h3')) {
+        const slug = encodeURI(h.innerText.toLowerCase().split(' ').join('-'));
+        const a = document.createElement('a');
+        a.href = '#' + slug;
+        h.id = slug;
+        a.innerText = h.innerText;
+        h.innerHTML = '';
+        h.appendChild(a)
+      }
+    }
+  }, [parent]);
 
   useEffect(() => {
     const listener = (evt) => {
@@ -80,7 +95,11 @@ export default function BlogDetail({ order, slug, post }) {
           }}
         />
       )}
-      <div key={slug} style={{ marginTop: hide ? 0 : 80 }}>
+      <div
+        className="container"
+        key={slug}
+        style={{ marginTop: hide ? 0 : 80 }}
+      >
         <div className="progress">
           <progress min="0" value={progress} max="100"></progress>
           <p>{progress}% Complete</p>
@@ -94,7 +113,9 @@ export default function BlogDetail({ order, slug, post }) {
               style={{ marginBottom: "40px" }}
             />
           )}
-          <ReactMarkdown source={post.content} />
+          <div ref={parent}>
+            <ReactMarkdown linkTarget="_blank" children={post.content} />
+          </div>
         </article>
         <div className="navigation">
           <div>

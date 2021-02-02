@@ -5,7 +5,7 @@ import matter from "gray-matter";
 export default function Toc({ pages }) {
   return (
     <>
-      <div>
+      <div className="container">
         <article className="content">
           <h1>Table of Contents</h1>
           {pages.map((page, index) => (
@@ -21,8 +21,8 @@ export default function Toc({ pages }) {
                 <ul>
                   {page.subheadings.map((sub) => (
                     <li>
-                      <Link href={page.path}>
-                        <a href={page.path}>{sub}</a>
+                      <Link href={page.path + sub.path}>
+                        <a href={page.path + sub.path}>{sub.text}</a>
                       </Link>
                     </li>
                   ))}
@@ -51,10 +51,14 @@ export async function getStaticProps() {
       subheadings: c.content
         .split("\n")
         .filter((a) => a.startsWith("## "))
-        .map((s) => s.split("## ")[1]),
+        .map((s) => ({
+          path: `#${encodeURI(
+            s.split("## ")[1].toLowerCase().split(" ").join("-")
+          )}`,
+          text: s.split("## ")[1],
+        })),
     };
   });
-
   return {
     props: { pages },
   };

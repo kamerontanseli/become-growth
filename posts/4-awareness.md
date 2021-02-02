@@ -79,3 +79,12 @@ If you negate the news articles as they're deliberate points for discussion and 
 They all centre around controversy. I used that same controversy technique to get to the top of HN and generate 30k hits, with my article:
 
 > First, it was Craigslist, next it's Zapier
+
+## Content Marketing
+
+Creating content in order to reach a specific audience is the key to building a brand that people can trust and follow for years to come. It's no wonder then that many established companies nowadays started out with a content marketing strategy. From personal experience, the startups that i've worked in that didn't have a solid content marketing engine, failed to really grow at the same rate as their competitors.
+
+### Blogging & SEO
+
+There are countless books on the subject of blogging so I wont get too much into it here. But in essence, ensuring you have a fast website, that renders HTML on the server side, looks nice, [has the necessary social/meta tags](https://chrome.google.com/webstore/detail/meta-scan/eccncioknliednbpdblekghbbchbklip?hl=en-GB), and has content specifically written to [target specific keywords](https://ahrefs.com/keyword-generator) will set you up for long-term success.
+
