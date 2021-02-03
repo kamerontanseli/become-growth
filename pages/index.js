@@ -29,9 +29,8 @@ export default function Home() {
                 Learn How To Become A Growth Engineer
               </h1>
               <p className="hero-submain">
-                Introducing the first ebook to take you from Developer
-                to a ready-to-hire Growth Engineer that can help scale
-                startups.
+                Introducing the first ebook to take you from Developer to a
+                ready-to-hire Growth Engineer that can help scale startups.
               </p>
               <form
                 data-netlify
@@ -87,8 +86,8 @@ export default function Home() {
                   operate like a technical co-founder but with less risk and a
                   full-time salary
                 </strong>
-                . So if you're a Developer with a love for marketing & metrics, you'll love
-                Growth Engineering.
+                . So if you're a Developer with a love for marketing & metrics,
+                you'll love Growth Engineering.
               </p>
             </div>
             <div></div>
@@ -161,21 +160,34 @@ export default function Home() {
               <h2 style={{ margin: 0 }}>What's in the Book?</h2>
             </div>
           </div>
-          <div className="content-boxes">
-            <div className="content-box">
-              <small>Mindset</small>
-              <h4>What is a Growth Engineer?</h4>
-              <p>How do Growth Engineers differ from hackers & PMs</p>
+          <div className="grid" style={{ alignItems: "flex-start" }}>
+            <div className="grid-content">
+              <h3 style={{ margin: 0 }}>What is a Growth Engineer?</h3>
+              <p>Growth Engineer Definition</p>
+              <p>Growth Hackers and Engineers.</p>
+              <p>The Growth Lead.</p>
+              <p>Product and Growth Engineers.</p>
+              <p>Growth Engineer Expected Salaries.</p>
+              <p>Growth Happens When People Collaborate.</p>
+
+              <h3>Identifying Good Metrics</h3>
+              <p>The Rules Of A Good Metric</p>
+              <p>Common Vanity Metrics</p>
+              <p>Useful Metrics for SaaS Companies</p>
+              <p>Setting Up Data Analysis Tools</p>
             </div>
-            <div className="content-box">
-              <small>Management</small>
-              <h4>Setting Up Growth Experiments</h4>
-              <p>Following the framework to optimise metrics.</p>
-            </div>
-            <div className="content-box">
-              <small>Mindset</small>
-              <h4>Thinking In Terms Of Data</h4>
-              <p>How to think & act like a scientist at work.</p>
+            <div className="grid-content">
+              <h3 style={{ margin: 0 }}>
+                Helping Companies Create Must-Have Products
+              </h3>
+              <p>Why True Growth Lies In the Product</p>
+              <p>Aha Moments</p>
+              <p>NPS / Must-Have Surveys</p>
+              <p>Retention Rate</p>
+              <p>Talking to Customers (Online & Offline)</p>
+              <p>A/B Testing</p>
+              <p>Finding Active Users</p>
+              <p>Pivoting Based On Data From Your Top Users</p>
             </div>
           </div>
         </div>
@@ -348,39 +360,6 @@ export default function Home() {
           background-size: cover;
           background-position: center;
           box-shadow: 2px 2px 8px #001d08;
-        }
-
-        .content-boxes {
-          margin: 80px 0;
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          grid-gap: 20px;
-          position: relative;
-          animation: fadeIn ease 2s;
-          -webkit-animation: fadeIn ease 2s;
-        }
-
-        .content-box {
-          padding: 20px;
-          border: 1px solid #fff;
-        }
-
-        .content-box h4 {
-          color: #fff;
-          margin-top: 5px;
-          font-size: 1.6em;
-          margin-bottom: 5px;
-        }
-
-        .content-box small {
-          color: #fff;
-          opacity: 0.7;
-        }
-
-        .content-box p {
-          margin: 0;
-          color: #fff;
-          opacity: 0.7;
         }
 
         @media screen and (max-width: 900px) {
